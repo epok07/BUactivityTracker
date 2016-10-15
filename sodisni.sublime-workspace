@@ -1,0 +1,1319 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"preg",
+				"preg_match"
+			],
+			[
+				"fa",
+				"fa-edit"
+			],
+			[
+				"fa-s",
+				"fa-bars"
+			],
+			[
+				"stri",
+				"stripslashes"
+			],
+			[
+				"contro",
+				"controllers"
+			],
+			[
+				"dis",
+				"disabled"
+			],
+			[
+				"di",
+				"disabled"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"info",
+				"info_message"
+			],
+			[
+				"sig",
+				"signin"
+			],
+			[
+				"jo",
+				"job_data"
+			],
+			[
+				"re",
+				"reset	.reset()"
+			],
+			[
+				"uniq",
+				"unique"
+			],
+			[
+				"imp",
+				"impôt"
+			],
+			[
+				"yes",
+				"yesterday_at"
+			],
+			[
+				"Suppi",
+				"Supprimer"
+			],
+			[
+				"cla",
+				"class	Attr"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"com",
+				"company_info"
+			],
+			[
+				"maat",
+				"matjupapp"
+			],
+			[
+				"br-",
+				"br-widget"
+			],
+			[
+				"cu",
+				"current_total"
+			],
+			[
+				"a",
+				"array	$… = array (…)"
+			],
+			[
+				"ro",
+				"row"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"is_in",
+				"is_int"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"pro",
+				"project_scores"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"hr",
+				"href"
+			],
+			[
+				"fiel",
+				"field_name"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "fuel/app/classes/controller/base.php",
+			"settings":
+			{
+				"buffer_size": 2660,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "fuel/app/config/config.php",
+			"settings":
+			{
+				"buffer_size": 8510,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fuel/app/classes/controller/bank.php",
+			"settings":
+			{
+				"buffer_size": 2658,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/index.php",
+			"settings":
+			{
+				"buffer_size": 3039,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fuel/app/classes/controller/dashboard.php",
+			"settings":
+			{
+				"buffer_size": 489,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fuel/app/views/product/index.php",
+			"settings":
+			{
+				"buffer_size": 46130,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fuel/app/views/inspinia.php",
+			"settings":
+			{
+				"buffer_size": 16981,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "HowToInstall.md",
+			"settings":
+			{
+				"buffer_size": 677,
+				"line_ending": "Windows",
+				"name": "Install.md"
+			}
+		},
+		{
+			"file": "fuel/app/config/development/db.php",
+			"settings":
+			{
+				"buffer_size": 288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fuel/app/views/dashboard/rapport.php",
+			"settings":
+			{
+				"buffer_size": 30828,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fuel/app/views/client/edit.php",
+			"settings":
+			{
+				"buffer_size": 217,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fuel/app/views/client/index.php",
+			"settings":
+			{
+				"buffer_size": 83769,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fuel/app/views/dashboard/index.php",
+			"settings":
+			{
+				"buffer_size": 18952,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fuel/app/classes/model/client.php",
+			"settings":
+			{
+				"buffer_size": 869,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fuel/app/classes/controller/client.php",
+			"settings":
+			{
+				"buffer_size": 3005,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fuel/app/classes/model/person.php",
+			"settings":
+			{
+				"buffer_size": 993,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fuel/app/views/person/index.php",
+			"settings":
+			{
+				"buffer_size": 1315,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "a",
+		"selected_items":
+		[
+			[
+				"a",
+				"ANF: New File"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"newfil",
+				"ANF: New File"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"snippet bs3icon",
+				"Snippet: bs3-icon"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"cre",
+				"Create Xiki Buffer"
+			],
+			[
+				"sublim",
+				"Sublime Tutor: Start"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Ki/Ampps/www/Sodisni",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/config",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/config/development",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/views/dashboard",
+		"/C/Users/Ki/Ampps/www/Sodisni/public/assets/js",
+		"/C/Users/Ki/Ampps/www/Sodisni/public/assets/js/plugins"
+	],
+	"file_history":
+	[
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/company.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/config/config.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/config/development/db.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/demo.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/delivery.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/views/inspinia.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/migrations/003_create_banks.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/migrations/004_create_packagetypes.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/migrations/005_create_units.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/migrations/006_create_orders.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/migrations/007_create_deliveries.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/migrations/008_create_statuses.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/migrations/009_create_paymentcategories.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/migrations/010_create_operations.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/migrations/012_create_clients.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/views/client/index.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/activity.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/client.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/unit.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/status.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/search.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/quotation.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/product.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/person.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/paymentcategory.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/packagetype.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/orders.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/order.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/classes/controller/operation.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/migrations/013_create_people.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/migrations/014_create_activities.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/views/dashboard/index.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/config/routes.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/views/dashboard/rapport.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/public/assets/css/font-awesome.min.css",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/views/index.html",
+		"/C/Users/Ki/Ampps/www/Sodisni/fuel/app/views/template.php",
+		"/C/Users/Ki/Ampps/www/Sodisni/sodisni.sublime-project",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/helpers/widget_helper.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/views/projects/project_status_widget.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/models/Projects_model.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/language/french/custom_lang.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/views/register/index.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/controllers/Dashboard.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/views/layout/index.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/controllers/Clients.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/views/projects/project_members/modal_form.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/index.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/views/projects/details_view.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/views/projects/open_timers.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/views/dashboard/index.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/views/users/skillsv3_chart_widget.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/views/signin/signin_form.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/views/clients/info_widgets.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/views/dashboard/client_dashboard.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/views/projects/index.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/rise.matjup.net.sublime-project",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/models/Users_model.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/models/Clients_model.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/models/Crud_model.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/views/signin/index.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/libraries/Template.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/.gitignore",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/views/includes/head.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/models/Skill_model.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/controllers/Team_members.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/views/includes/helper_js.php",
+		"/C/Users/Ki/Ampps/www/rise.matjup.com/application/config/database.php",
+		"/C/Users/Ki/Ampps/www/rise.litelec.net/application/config/database.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/controllers/Dashboard.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/models/Attendance_model.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/config/routes.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/assets/css/timepicker/css/timepicker.css",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/includes/topbar.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/includes/head.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/frontend/head.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/includes/helper_js.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/frontend/block_contact.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/frontend/block_startnow.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/frontend/block_feat.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/frontend/block_main.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/frontend/block_slogan.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/frontend/block_intro.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/frontend/block_feat2.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/frontend/block_project.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/frontend/socialicons.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/frontend/topbar.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/layout/index.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/controllers/Frontpage.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/libraries/Template.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/helpers/activity_logs_helper.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/helpers/currency_helper.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/helpers/general_helper.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/controllers/Projects.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/helpers/index.html",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/helpers/widget_helper.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/models/Projects_model.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/models/Project_members_model.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/clients/index.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/clients/view.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/dashboard/index.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/controllers/Signin.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/hooks/init_settings.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/tickets/ticket_status_widget.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/users/skills_chart_widget.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/users/skillsv2_chart_widget.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/controllers/Signup.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/models/Team_model.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/models/Crud_model.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/controllers/Clients.php",
+		"/C/Users/Ki/Desktop/Sublime Text Build 3047/Data/Packages/User/Base File.sublime-settings",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/controllers/Pre_loader.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/config/hooks.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/controllers/Settings.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/language/french/Read Me.txt",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/language/french/default_lang.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/index.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/projects/project_members/modal_form.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/signin/index.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/signin/signin_form.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/register/index.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/language/french/db_lang.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/language/english/default_lang.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/views/team_members/modal_form.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/risedemo.sublime-project",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/models/Clients_model.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/language/english/custom_lang.php",
+		"/C/Users/Ki/Ampps/www/rise.demo.net/application/config/database.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Ki\\Ampps\\www\\rise.matjup.com\\application\\controllers",
+			"C:\\Users\\Ki\\Ampps\\www\\rise.demo.net\\application",
+			"C:\\Users\\Ki\\Ampps\\www\\rise.demo.net\\application\\controllers",
+			"C:\\Users\\Ki\\Ampps\\www\\rise.demo.net\\application\\views",
+			"C:\\Users\\Ki\\Ampps\\www\\rise.demo.net\\application\\controllers",
+			"C:\\Users\\Ki\\Ampps\\www\\dev.matjup.com\\application\\views\\backend\\admin",
+			"C:\\Users\\user\\webroot\\wamp\\www\\demo.invest-cameroon.com\\demo.invest-cameroon.com",
+			"C:\\Users\\user\\webroot\\wamp\\www\\demo.invest-cameroon.com\\demo.invest-cameroon.com\\administrator\\components\\com_jajobboard",
+			"C:\\Users\\user\\webroot\\wamp\\www\\demo.invest-cameroon.com\\demo.invest-cameroon.com",
+			"C:\\Users\\user\\webroot\\wamp\\www\\demo.invest-cameroon.com\\demo.invest-cameroon.com\\language"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"></script>",
+			"<script src=\"js/",
+			"pace",
+			"shorttext",
+			"Debug",
+			"module",
+			"modules",
+			"endpoints",
+			"fuel/app/",
+			"application",
+			"\\'",
+			"$this->Projects_model->save",
+			"$this->session->",
+			"client",
+			"$page_data",
+			"$this",
+			"<select",
+			"modaal",
+			"css",
+			"timepicker",
+			"mission",
+			"home",
+			"contact",
+			"end",
+			"<img",
+			"assets/",
+			"includes",
+			"update_where",
+			"$this->Users_model->save_job_info",
+			"init_settings",
+			"hooks",
+			"init_settings",
+			"lang",
+			"load",
+			"lang",
+			"submit",
+			"4",
+			"=",
+			"     =",
+			"'",
+			"open",
+			"passwd",
+			"Peut",
+			"billets",
+			"dossier",
+			"réponse",
+			"project",
+			"timeline",
+			"task",
+			"todo",
+			"%",
+			"«",
+			"* /",
+			"/ *",
+			"»",
+			"\"",
+			"»",
+			"\"",
+			"Lang",
+			"Sorry",
+			"lang",
+			"$config['language']",
+			"lang",
+			"grade",
+			"3",
+			"login_user_id()",
+			"session",
+			"$this->session->",
+			"close",
+			"company_name",
+			"data_",
+			"$client_id",
+			"Clients_model",
+			"</form",
+			"form_close",
+			"Role",
+			"role",
+			"user-role",
+			"role",
+			"pro",
+			"matjupapp.pro_skills",
+			"team_member",
+			"team_member-form",
+			"gender_male",
+			"22",
+			"login_",
+			"var chart = AmCharts.makeChart",
+			"echo",
+			"scores",
+			"project",
+			"talents",
+			"4",
+			"Techniques",
+			"  Techniques",
+			"user_grad",
+			"2-3",
+			"<? foreach",
+			"foreach",
+			"grade",
+			"client_id",
+			"_project",
+			"_client",
+			"_project",
+			"project",
+			"2-3",
+			"2-5",
+			"<form",
+			"sele",
+			"plusone.js",
+			"phpmyadmin",
+			"projectsListIgnore",
+			"Job",
+			"Post Job [premium]",
+			"permission",
+			"Eg: account",
+			"$all_items"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&#39;",
+			"assets/frontend/",
+			"\\'",
+			"\"",
+			"*/",
+			"/*",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "fuel/app/classes/controller/base.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2660,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2293,
+								2293
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 728.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "fuel/app/config/config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8504,
+								8504
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3734.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "fuel/app/classes/controller/bank.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								575
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "fuel/app/classes/controller/dashboard.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "fuel/app/views/product/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46130,
+								46130
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9841.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "fuel/app/views/inspinia.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16981,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13251,
+								13251
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3681.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "HowToInstall.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Install.md",
+							"is_xml": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "fuel/app/config/development/db.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								287,
+								96
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "fuel/app/views/dashboard/rapport.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30784,
+								30784
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "fuel/app/views/client/edit.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "fuel/app/views/client/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 83769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4635,
+								4635
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4086.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "fuel/app/views/dashboard/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								498,
+								498
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 457.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "fuel/app/classes/model/client.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 869,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								456,
+								456
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "fuel/app/classes/controller/client.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3005,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								264
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "fuel/app/classes/model/person.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 993,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								526,
+								526
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "fuel/app/views/person/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326,
+								356
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sodisni.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"regie",
+				"views\\register\\index.php"
+			],
+			[
+				"mod",
+				"views\\projects\\modal_form.php"
+			],
+			[
+				"invoi",
+				"application\\views\\team_members\\invitation_modal.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

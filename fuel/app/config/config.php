@@ -270,7 +270,7 @@ return array(
 		 * );
 		 */
 		'packages'  => array(
-			'orm','auth','email','parser'
+			'orm','auth','email','parser','breadcrumb','mailchimp'
 		),
 
 		/**
@@ -308,5 +308,8 @@ return array(
 		 */
 		// 'language'  => array(),
 	),
+
+
+	'sitetitle' => 'Sodisni S.A'
 
 );

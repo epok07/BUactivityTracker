@@ -1,0 +1,56 @@
+{
+	"folders":
+	[
+		{ 
+		"folder_exclude_patterns":
+		["docs", "nbproject",".git"],
+		
+			"path": "."
+		},
+		{
+			"file_exclude_patterns": [".html"],
+			"path": "fuel/app/"
+
+		},
+		{
+			"file_exclude_patterns": [".html"],
+			"path": "fuel/app/config"
+
+		},
+		{
+			"file_exclude_patterns": [".html"],
+			"path": "fuel/app/migrations"
+
+		},
+		{
+			"file_exclude_patterns": [".html"],
+			"path": "fuel/app/tasks"
+
+		},
+		{
+			"file_exclude_patterns": [".html"],
+			"path": "fuel/app/classes/controller"
+
+		},
+		{
+			"file_exclude_patterns": [".html"],
+			"path": "fuel/app/classes/model"
+
+		},
+		{
+			"file_exclude_patterns": [".html"],
+			"path": "fuel/app/classes/presenter"
+
+		},
+		{
+			"file_exclude_patterns": [".html"],
+			"path": "fuel/app/views"
+
+		},
+		{
+			"file_exclude_patterns": [".html"],
+			"path": "public/assets"
+
+		}
+	]
+}
