@@ -37,4 +37,64 @@ class Model_Order extends Model
 		return $val;
 	}
 
+	protected static $_belongs_to = array(
+		'company' => array(
+			 'key_from' => 'company_id',
+		        'model_to' => 'Model_Company',
+		        'key_to' => 'id',
+		        'cascade_save' => true,
+		        'cascade_delete' => false,
+		),
+		'client' => array(
+			 'key_from' => 'client_id',
+		        'model_to' => 'Model_Client',
+		        'key_to' => 'id',
+		        'cascade_save' => true,
+		        'cascade_delete' => false,
+		),
+	);
+
+	
+
+
+
+	protected static $_has_many = array(
+		'operations' => array(
+				'key_from'       => 'id',
+				'model_to'       => 'Model_Operation',
+				'key_to'         => 'order_id',
+				'cascade_save'   => true,
+				'cascade_delete' => false,
+		    ) ,
+		'deliveries' => array(
+				'key_from'       => 'id',
+				'model_to'       => 'Model_Delivery',
+				'key_to'         => 'order_id',
+				'cascade_save'   => true,
+				'cascade_delete' => false,
+		    ) ,
+	   //  'payments' => array(
+				// 'key_from'       => 'id',
+				// 'model_to'       => 'Model_Payment',
+				// 'key_to'         => 'order_id',
+				// 'cascade_save'   => true,
+				// 'cascade_delete' => false,
+	   //  )      
+	);
+
+	public static function struuid($entropy = false)
+    {
+        $s=uniqid("",$entropy);
+        $num= hexdec(str_replace(".","",(string)$s));
+        $index = '1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $base= strlen($index);
+        $out = '';
+            for($t = floor(log10($num) / log10($base)); $t >= 0; $t--) {
+                $a = floor($num / pow($base,$t));
+                $out = $out.substr($index,$a,1);
+                $num = $num-($a*pow($base,$t));
+            }
+        return $out;
+    }
+
 }

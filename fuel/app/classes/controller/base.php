@@ -24,10 +24,14 @@ class Controller_Base extends Controller_Template
         $endpoints = File::read_dir(APPPATH . 'views', 2,array(
                 '!^\.', // no hidden files/dirs
                 '!^welcome' => 'dir', // no private dirs
+                '!^person' => 'dir', // no private dirs
                 '\.php$' => 'file', // only get png's
                 '\.css$' => 'file', // or css files
                 '!^template\.php$' => 'file', // or templates files
                 '!^inspinia\.php$' => 'file', // or templates files
+
+                '!^edit\.php$' => 'file', // or templates files
+                '!^view\.php$' => 'file', // or templates files
 
                 '!^_', // exclude everything that starts with an underscore.
             ));
@@ -68,6 +72,9 @@ class Controller_Base extends Controller_Template
 
         View::set_global('controllers', $controllers);
 
+        View::set_global('top_action_btns', "");
+
+
         View::set_global('sitetitle', config::get('sitetitle'));
 
         View::set_global('breadcrumb', \Breadcrumb::create_links(), false);
@@ -88,6 +95,8 @@ class Controller_Base extends Controller_Template
 
         return $response; // make sure after() returns the response object
     }
+
+
 
    
 }

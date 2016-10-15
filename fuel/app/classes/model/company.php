@@ -22,6 +22,16 @@ class Model_Company extends Model
 		),
 	);
 
+	protected static $_has_many = array(
+		'orders' => array(
+		        'key_from' => 'id',
+		        'model_to' => 'Model_Order',
+		        'key_to' => 'company_id',
+		        'cascade_save' => true,
+		        'cascade_delete' => false,
+		    )   
+	);
+
 	public static function validate($factory)
 	{
 		$val = Validation::forge($factory);

@@ -4,7 +4,9 @@ class Controller_Order extends Controller_Base
 
 	public function action_index()
 	{
-		$data['orders'] = Model_Order::find('all');
+		$data['orders'] = Model_Order::find('all', array(
+			"raleted" => array("comapany", "client", "operations", "deliveries")
+			));
 		$this->template->title = "Orders";
 		$this->template->content = View::forge('order/index', $data);
 
@@ -21,6 +23,7 @@ class Controller_Order extends Controller_Base
 		}
 
 		$this->template->title = "Order";
+		$this->template->top_action_btns = View::forge('order/_order_action');
 		$this->template->content = View::forge('order/view', $data);
 
 	}
@@ -34,7 +37,7 @@ class Controller_Order extends Controller_Base
 			if ($val->run())
 			{
 				$order = Model_Order::forge(array(
-					'hash' => Input::post('hash'),
+					'hash' =>  Model_Order::struuid('hash'),
 					'client_id' => Input::post('client_id'),
 					'issuer_id' => Input::post('issuer_id'),
 					'status_id' => Input::post('status_id'),

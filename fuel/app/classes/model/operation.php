@@ -27,6 +27,33 @@ class Model_Operation extends Model
 		),
 	);
 
+	protected static $_belongs_to = array(
+		'order' => array(
+			 'key_from' => 'order_id',
+		        'model_to' => 'Model_Order',
+		        'key_to' => 'id',
+		        'cascade_save' => true,
+		        'cascade_delete' => false,
+		),
+	);
+
+	protected static $_has_one = array(
+		'product' => array(
+				'key_from'       => 'product_id',
+				'model_to'       => 'Model_Product',
+				'key_to'         => 'id',
+				'cascade_save'   => true,
+				'cascade_delete' => false,
+		    ),
+		'package' => array(
+				'key_from'       => 'id',
+				'model_to'       => 'Model_Packagetype',
+				'key_to'         => 'packagetype_id',
+				'cascade_save'   => true,
+				'cascade_delete' => false,
+		    ),      
+	);
+
 	public static function validate($factory)
 	{
 		$val = Validation::forge($factory);

@@ -8,13 +8,26 @@
 
     <title><?php echo $title; ?></title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <?php echo Asset::css(array('bootstrap.css', 'font-awesome.css','animate.css', 'style.css')); ?>
+    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+ -->
+
+    <?php echo Asset::css(array('bootstrap.css', 'font-awesome.css','animate.css', 'style.css','plugins/toastr/toastr.min.css')); ?>
+
+    <?php echo Asset::css(array(
+            'plugins/toastr/toastr.min.css',
+            'plugins/footable/footable.core.css',
+
+    )); ?>
+
+    <?php echo Asset::css(array( 'style.css')); ?>
+
+
 
 </head>
 
@@ -22,14 +35,16 @@
 
 <div id="wrapper">
 
+
+
     <nav class="navbar-default navbar-static-side" role="navigation">
         <div class="sidebar-collapse">
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
                     <div class="dropdown profile-element">
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">David Williams</strong>
-                             </span> <span class="text-muted text-xs block">Art Director <b class="caret"></b></span> </span> </a>
+                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Romuald Ketchanga</strong>
+                             </span> <span class="text-muted text-xs block">General Manager <b class="caret"></b></span> </span> </a>
                             <ul class="dropdown-menu animated fadeInRight m-t-xs">
                                 <li><a href="#">Logout</a></li>
                             </ul>
@@ -130,7 +145,7 @@
 
         <!-- Page header -->
         <div class="row wrapper border-bottom white-bg page-heading">
-                <div class="col-lg-10">
+                <div class="col-lg-8">
                     <h2><?php echo $title;?></h2>
                      <?php echo Breadcrumb::create_links() ; ?>
                     <!-- <ol class="breadcrumb">
@@ -146,8 +161,8 @@
                     </ol> -->
 
                 </div>
-                <div class="col-lg-2">
-
+                <div class="col-lg-4">
+                <?php echo $top_action_btns; ?>
                 </div>
             </div>
 
@@ -233,7 +248,16 @@
             "plugins/sparkline/jquery.sparkline.min.js",
 
             //Sparkline demo data
-            "demo/sparkline-demo.js"
+            "demo/sparkline-demo.js",
+
+            //iCheck library
+            "plugins/iCheck/icheck.min.js",
+
+            //Sparkline demo data
+            "plugins/peity/jquery.peity.min.js",
+
+            //Toastr
+            "plugins/toastr/toastr.min.js"
             )); ?>
     
 
@@ -472,6 +496,65 @@
         });
     </script>
     <?php endif ; ?>
+
+    <?php if (preg_match('/delivery/' , \Uri::current() ) )  : ?>
+        <script>
+            $(function() {
+                    $("span.pie").peity("pie", {
+                        fill: ['#1ab394', '#d7d7d7', '#ffffff']
+                    })
+
+                    $(".line").peity("line",{
+                        fill: '#1ab394',
+                        stroke:'#169c81',
+                    })
+
+                    $(".bar").peity("bar", {
+                        fill: ["#1ab394", "#d7d7d7"]
+                    })
+
+                    $(".bar_dashboard").peity("bar", {
+                        fill: ["#1ab394", "#d7d7d7"],
+                        width:100
+                    })
+
+                    var updatingChart = $(".updating-chart").peity("line", { fill: '#1ab394',stroke:'#169c81', width: 64 })
+
+                    setInterval(function() {
+                        var random = Math.round(Math.random() * 10)
+                        var values = updatingChart.text().split(",")
+                        values.shift()
+                        values.push(random)
+
+                        updatingChart
+                            .text(values.join(","))
+                            .change()
+                    }, 1000);
+
+                });
+
+        </script>
+    <?php endif ; ?>
+
+    <!-- Notifications -->
+    <script type="text/javascript">
+    <?php if (Session::get_flash('success')): ?>
+             
+                <?php $msg =  implode('</p><p>', e((array) Session::get_flash('success'))); ?>
+                toastr["success"]( "<?php echo $msg;?>", "Opertion succeded !!!")
+                 
+    <?php endif; ?>
+    <?php if (Session::get_flash('error')): ?>
+             
+                    <?php $msg_error =  implode('</p><p>', e((array) Session::get_flash('error'))); ?>
+                    toastr["error"]( "<?php echo $msg_error;?>", "System Error: ")
+                
+    <?php endif; ?>
+    
+   
+        //toastr["success"]( "Dear User,  <br/> this is the Dashboard of your Business. ", "Welcome !!!")
+    </script>
+    <!-- Notifications END -->
 
 <!-- Piwik -->
 <script type="text/javascript">

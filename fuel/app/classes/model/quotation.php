@@ -24,6 +24,8 @@ class Model_Quotation extends Model
 		),
 	);
 
+	
+
 	public static function validate($factory)
 	{
 		$val = Validation::forge($factory);

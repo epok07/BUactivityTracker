@@ -28,12 +28,20 @@ class Model_Client extends Model
 
 	protected static $_has_many = array(
 		'contacts' => array(
-		        'key_from' => 'id',
-		        'model_to' => 'Model_Person',
-		        'key_to' => 'client_id',
-		        'cascade_save' => true,
-		        'cascade_delete' => false,
-		    )   
+				'key_from'       => 'id',
+				'model_to'       => 'Model_Person',
+				'key_to'         => 'client_id',
+				'cascade_save'   => true,
+				'cascade_delete' => false,
+		    ),
+		'orders' => array(
+				'key_from'       => 'id',
+				'model_to'       => 'Model_Client',
+				'key_to'         => 'client_id',
+				'cascade_save'   => true,
+				'cascade_delete' => false,
+		    ),
+
 	);
 
 

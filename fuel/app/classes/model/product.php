@@ -24,6 +24,16 @@ class Model_Product extends Model
 		),
 	);
 
+	protected static $_belongs_to = array(
+		'operation' => array(
+			 'key_from' => 'operation_id',
+		        'model_to' => 'Model_Operation',
+		        'key_to' => 'id',
+		        'cascade_save' => true,
+		        'cascade_delete' => false,
+		),
+	);
+
 	public static function validate($factory)
 	{
 		$val = Validation::forge($factory);
